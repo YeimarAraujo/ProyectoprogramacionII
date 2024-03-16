@@ -53,7 +53,7 @@ public class Ppl {
         String nombre = scanner.nextLine();
         System.out.println("Ingrese su edad:");
         int edad = scanner.nextInt();
-        scanner.nextLine(); // Limpiar el buffer del scanner
+        scanner.nextLine(); 
         System.out.println("Ingrese su correo electrónico:");
         String correoElectronico = scanner.nextLine();
         System.out.println("Ingrese su contraseña:");
